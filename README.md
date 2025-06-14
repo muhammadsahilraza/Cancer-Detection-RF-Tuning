@@ -19,7 +19,7 @@ This project uses a **Random Forest Classifier** with **GridSearchCV** to classi
 
 ## Workflow
 
-1.Load the dataset from CSV
+1. Load the dataset from CSV
 2. Preprocess: drop unnecessary columns and map target labels
 3. Split data into training/testing sets
 4. Train a Random Forest model
