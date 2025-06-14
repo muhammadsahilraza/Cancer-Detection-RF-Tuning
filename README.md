@@ -6,9 +6,14 @@ This project applies **Random Forest Classifier** with **GridSearchCV** to detec
 
 ## Dataset
 
-- Source: `sklearn.datasets.load_breast_cancer()`
-- 569 samples, 30 numerical features
-- Target classes: `0 = malignant`, `1 = benign`
+- Source: [Kaggle - Breast Cancer Wisconsin (Diagnostic) Data Set](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- 569 samples, 30 features (e.g. radius, texture, perimeter)
+- Diagnosis labels:
+  - `M = Malignant`
+  - `B = Benign`  
+- Converted to:
+  - `1 = Malignant`
+  - `0 = Benign`
 
 ---
 
