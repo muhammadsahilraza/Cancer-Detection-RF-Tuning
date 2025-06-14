@@ -1,6 +1,6 @@
 # Breast Cancer Detection with Random Forest & Hyperparameter Tuning
 
-This project applies **Random Forest Classifier** with **GridSearchCV** to detect whether a tumor is **benign** or **malignant** using the built-in **Breast Cancer dataset** from `scikit-learn`.
+This project uses a **Random Forest Classifier** with **GridSearchCV** to classify breast tumors as **benign** or **malignant**, based on the **Breast Cancer Wisconsin (Diagnostic) Dataset** from **Kaggle**.
 
 ---
 
