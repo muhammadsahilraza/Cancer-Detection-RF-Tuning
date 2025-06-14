@@ -19,14 +19,15 @@ This project uses a **Random Forest Classifier** with **GridSearchCV** to classi
 
 ## Workflow
 
-1. Load dataset using `sklearn.datasets`
-2. Preprocess and split data using `train_test_split`
-3. Train a Random Forest Classifier
-4. Apply `GridSearchCV` to tune:
+1.Load the dataset from CSV
+2. Preprocess: drop unnecessary columns and map target labels
+3. Split data into training/testing sets
+4. Train a Random Forest model
+5. Apply `GridSearchCV` to tune:
    - `n_estimators`: [50, 100, 150]
    - `max_depth`: [None, 5, 10]
    - `min_samples_split`: [2, 5, 10]
-5. Evaluate using:
+6. Evaluate using:
    - Accuracy score
    - Classification report
 
